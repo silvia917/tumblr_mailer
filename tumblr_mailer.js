@@ -2,13 +2,13 @@ var fs = require('fs');
 var ejs = require('ejs');
 var tumblr = require('tumblr.js');
 var mandrill = require('mandrill-api/mandrill');
-var mandrill_client = new mandrill.Mandrill('Jr03PIvTxIao4j_PkHY1cg');
+var mandrill_client = new mandrill.Mandrill('x');
 
 var client = tumblr.createClient({
-  consumer_key: 'dsLFELOVR7AeYA0qi9lgeIrZOMrvyDxdnsGGwpWi8328gxOUXk',
-  consumer_secret: '0Ybgc5hsR2joFMKRwoIkPdx4lOgzJcGemKrgZnLM07Qb67RJ7v',
-  token: 'HcAPcXIbSnQKaeNLCygaRkMTQObIPgiLlzrpxCpJ3pGdLlMfIM',
-  token_secret: 'sZ1kuWxy5kf8tWWATc2wv8FHC5cqojdtMkMLxqqt7uQTDXJw88'
+  consumer_key: 'x',
+  consumer_secret: 'x',
+  token: 'x',
+  token_secret: 'x'
 });
 
 
